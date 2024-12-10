@@ -20,7 +20,7 @@ class NutrientAnalysis(Action):
             end_date = self.read_input(conn, "the end date (YYYY-MM-DD)")
 
             # Step 2: 提示用戶輸入想查詢的營養素名稱
-            nutrient_name = self.read_input(conn, "the nutrient name (目前僅開放查詢「熱量」、「總碳水化合物」、「膳食纖維」)")
+            nutrient_name = self.read_input(conn, "the nutrient name (請輸入「熱量」或「總碳水化合物」或「膳食纖維」)")
             nutrient_id = db_get_nutrient_id_by_name(nutrient_name) 
 
             if not nutrient_id:
