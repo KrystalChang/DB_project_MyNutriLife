@@ -60,32 +60,30 @@
 
 - 經營者可隨時修改或刪除文章，確保文章內容符合最新的營養研究趨勢與健康指引，為使用者提供具參考價值的健康資訊。
 
-## 安裝套件
-
-在執行本程式之前，請確保安裝以下需要的 Python 套件：
-
-- psycopg2-binary (與 PostgreSQL 數據庫交互)
-  ```bash
-  pip install psycopg2-binary
-  ```
-- bcrypt (密碼加密與驗證)
-  ```bash
-  pip install bcrypt
-  ```
-- matplotlib (數據可視化)
-  ```bash
-  pip install matplotlib
-  ```
-- pandas (數據操作)
-  ```bash
-  pip install pandas
-  ```
 ## 使用方法
 
 - 使用備份檔 `DB.backup`或 `DB_backup.zip`復原資料庫 (資料庫檔案較大，故提供壓縮檔以供下載)
 - 預設連線通道為 **127.0.0.1:12345**，可至 `server.py` 及 `client.py` 修改
 - 在 `DB_utils.py` 設定**資料庫名稱** (dbname)、**使用者名稱** (user)、**資料庫密碼** (password)、**主機位置** (host)及**通訊埠** (port)
-  
+
+- 在執行本程式之前，請確保安裝以下需要的 Python 套件：
+  - psycopg2-binary (與 PostgreSQL 數據庫交互)
+    ```bash
+    pip install psycopg2-binary
+    ```
+  - bcrypt (密碼加密與驗證)
+    ```bash
+    pip install bcrypt
+    ```
+  - matplotlib (數據可視化)
+    ```bash
+    pip install matplotlib
+    ```
+  - pandas (數據操作)
+    ```bash
+    pip install pandas
+    ```
+
 - 先執行 `server.py` 啟動伺服器：
   ```bash
   python server.py
