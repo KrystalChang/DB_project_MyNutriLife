@@ -62,7 +62,7 @@
 
 ## 使用方法
 
-- 使用備份檔 `DB.backup` 復原資料庫
+- 使用備份檔 `DB.backup`或 `DB_backup.zip`復原資料庫 (資料庫檔案較大，故提供壓縮檔以供下載)
 - 預設連線通道為 **127.0.0.1:12345**，可至 `server.py` 及 `client.py` 修改
 - 在 `DB_utils.py` 設定**資料庫名稱** (dbname)、**使用者名稱** (user)、**資料庫密碼** (password)、**主機位置** (host)及**通訊埠** (port)
 
@@ -79,8 +79,6 @@ python server.py
 ```bash
 python client.py
 ```
-
-**Notes:** 功能 `[2] List All Available Study Events` 因為 query 的資料量太大，需等待約半分鐘的資料傳遞，以及連線介面的 Scrollback Buffer 建議調大才能看到所有輸出。
 
 ## 技術細節
 
@@ -99,7 +97,7 @@ python client.py
 2. **`./client.py`**
    - 包含客戶端的主要功能。
    - 持續從伺服器接收訊息並顯示於終端機。
-   - 當訊息包含特定標籤（tag）時，根據標籤執行對應的操作，例如讀取使用者輸入、解析 CSV 檔案、關閉 socket 連線並結束程式。
+   - 當訊息包含特定標籤（tag）時，根據標籤執行對應的操作，例如讀取使用者輸入、關閉 socket 連線並結束程式。
 3. **`./DB_utils.py`**
    - 封裝與資料庫相關的功能，包含資料庫連線管理與查詢操作。
 4. **`./action` 資料夾**
