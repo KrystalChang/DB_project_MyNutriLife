@@ -142,4 +142,4 @@
 
 ## 參考資料
 
-- README 說明文件及報告內容來自 **113-1 資料庫管理 第四組**
+- README 說明文件及報告內容來自 **[113-1 資料庫管理 第四組](https://drive.google.com/file/d/18hSIsx4m3xTCeQ-Dgu8X1xPfmSVtJ5zo/view?usp=sharing)**
