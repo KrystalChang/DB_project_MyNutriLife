@@ -113,14 +113,17 @@ python client.py
 - Python: 3.10.9
 - PostgreSQL: 16.4
 
-（因為密碼有加密，因此這邊提供可測試的 User 名稱）
 
-## 可供測試的 User 名稱：dennis86、密碼：6%gPL@Wa#O
 
-- 如果想測試其他 User 請見：https://drive.google.com/file/d/1xKCAV6QiQpzaR50unlATCMG41fqLzwRy/view?usp=sharing）
+## 可供測試的 User 帳號（因為密碼有加密，因此這邊提供可測試的 User 帳密）
+
+- 名稱：dennis86、密碼：6%gPL@Wa#O
+  
+- （如果想測試其他 User 請見：https://drive.google.com/file/d/1xKCAV6QiQpzaR50unlATCMG41fqLzwRy/view?usp=sharing）
 
 - 可供測試的 Operator 帳號：johnodom@example.com、密碼：L5fRF+Et(A
-  （如果想測試其他 Operator 請見：https://drive.google.com/file/d/1zsG3cqIXHQUSzkSpVitU3b-kPkC8UfRO/view?usp=sharing）
+
+- （如果想測試其他 Operator 請見：https://drive.google.com/file/d/1zsG3cqIXHQUSzkSpVitU3b-kPkC8UfRO/view?usp=sharing）
 
 ## 參考資料
 
